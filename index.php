@@ -36,7 +36,7 @@
                 ?>
             </section>
            
-            <form id="form-area" method="POST" action="APP/app.php" onsubmit="return verifyForm(this); >
+            <form id="form-area" method="POST" action="APP/app.php" onsubmit="return verifyForm(this);" >
                 <label>
                     <h5>Name</h5>
                     <input type="text" name="name" class="form-input">
